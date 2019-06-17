@@ -1,0 +1,33 @@
+{
+  "name": "bollinger",
+  "version": "0.0.0",
+  "description": "An open-source technical analysis library written with TypeScript.",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phmatray/bollinger.git"
+  },
+  "keywords": [
+    "bollinger"
+  ],
+  "author": "phmatray <phmatray@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/phmatray/bollinger/issues"
+  },
+  "homepage": "https://github.com/phmatray/bollinger#readme"
+}
