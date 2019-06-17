@@ -2,7 +2,7 @@
   "name": "bollinger",
   "version": "0.0.0-development",
   "description": "An open-source technical analysis library written with TypeScript.",
-  "main": ".eslintrc.js",
+  "main": "src/index.ts",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -10,6 +10,7 @@
     "@commitlint/prompt": "^8.0.0",
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/git": "^7.0.12",
+    "@types/jest": "^24.0.15",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "commitizen": "^3.1.1",
@@ -18,14 +19,16 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^2.4.1",
+    "jest": "^24.8.0",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.16",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
   },
   "scripts": {
     "commit": "npx git-cz",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --forceExit --coverage --verbose",
     "semantic-release": "semantic-release"
   },
   "repository": {
