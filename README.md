@@ -24,4 +24,5 @@ An open-source technical analysis library written with TypeScript.
 
 ## Further reading
 
+- [List of technical indicators](https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/list-of-technical-indicators/)
 - [The way to fully automated releases in open source projects](https://medium.com/@kevinkreuzer/the-way-to-fully-automated-releases-in-open-source-projects-44c015f38fd6)
