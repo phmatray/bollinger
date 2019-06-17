@@ -1,3 +1,3 @@
-export function helloWorld(): string {
-  return 'Bollinger TS';
-}
+import { SMA } from './sma';
+
+export default { SMA };
