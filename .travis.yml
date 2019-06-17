@@ -1,0 +1,23 @@
+language: node_js
+sudo: false
+node_js:
+  - 10
+  - 9
+  - 8
+
+os:
+  - linux
+
+jobs:
+  include:
+    - stage: install
+      script: npm install
+      skip_cleanup: true
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+if: branch = master
