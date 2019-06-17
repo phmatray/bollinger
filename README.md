@@ -7,6 +7,7 @@ An open-source technical analysis library written with TypeScript.
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 [![Coverage Status](https://coveralls.io/repos/github/phmatray/bollinger/badge.svg?branch=master)](https://coveralls.io/github/phmatray/bollinger?branch=master)
 [![Known Vulnerabilities](https://snyk.io//test/github/phmatray/bollinger/badge.svg?targetFile=package.json)](https://snyk.io//test/github/phmatray/bollinger?targetFile=package.json)
+[![Build Status](https://travis-ci.org/phmatray/bollinger.svg?branch=master)](https://travis-ci.org/phmatray/bollinger)
 
 ## What is included?
 
