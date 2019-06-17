@@ -1,0 +1,334 @@
+{
+  "indicators": [
+    {
+      "id": "ABANDS",
+      "name": "Acceleration Bands",
+      "description": "The Acceleration Bands (ABANDS) created byPrice Headley plots upper and lower envelope bands around a simple moving average. The width of the bands is based on the formula below."
+    },
+    {
+      "id": "AD",
+      "name": "Accumulation/Distribution",
+      "description": "The Accumulation/Distribution (AD) study attempts to quantify the amount of volume flowing into or out of an instrument by identifying the position of the close of the periodin relation to that period’s high/low range. The volume for the period is then allocated accordingly to a running continuous total."
+    },
+    {
+      "id": "ADX",
+      "name": "Average Directional Movement",
+      "description": "The Average Directional Movement Index (ADX) is designed to quantify trend strength by measuring the amount of price movement in a single direction. The ADX is part of the Directional Movement system published by J. Welles Wilder, and is the average resulting from the Directional Movement indicators."
+    },
+    {
+      "id": "APO",
+      "name": "Absolute Price Oscillator",
+      "description": "The Absolute Price Oscillator (APO) is based on the absolute differences between two moving averages of different lengths, a ‘Fast’ and a ‘Slow’ moving average."
+    },
+    {
+      "id": "AR",
+      "name": "Aroon",
+      "description": "The Aroon (AR) indicator developed by Tushar Chande attempts to determine whether an instrument is trending and how strong is the trend. AroonUp and AroonDown lines make up the indicator with their formulas below."
+    },
+    {
+      "id": "ARO",
+      "name": "Aroon Oscillator",
+      "description": "The Aroon Oscillator (ARO) developed by Tushar Chande is calculated by subtracting AroonDown from AroonUp. The AroonOscillator ranges from -100 to 100."
+    },
+    {
+      "id": "ATR",
+      "name": "Average True Range",
+      "description": "The Average True Range (ATR) study measures the size of the period’s range, and takes into account any gap from the close of the previous period."
+    },
+    {
+      "id": "AVOL",
+      "name": "Volume on the Ask",
+      "description": "The Ask Volume (AVOL) study displays the total amount of transactions occurring on the Ask in a given interval."
+    },
+    {
+      "id": "BAVOL",
+      "name": "Volume on the Bid and Ask",
+      "description": "The Bid/Ask Volume (BAVOL) study displays the total amount of transactions occurring on both the Bid and the Ask in a given interval."
+    },
+    {
+      "id": "BBANDS",
+      "name": "Bollinger Band",
+      "description": "The Bollinger Band (BBANDS) study created by John Bollinger plots upper and lower envelope bands around the price of the instrument. The width of the bands is based on the standard deviation of the closing prices from a moving average of price."
+    },
+    {
+      "id": "BW",
+      "name": "Band Width",
+      "description": "The width of the bands is based on the standard deviation of the closing prices from a moving average of price. You can apply this study to any band study, such as Keltner channel."
+    },
+    {
+      "id": "BVA",
+      "name": "Bar Value Area",
+      "description": "Returns the value area high and low for that bar. Each bar contains a volume at price list. The value area calculation is then calculated on this volume at price list to produce the high and low of the value area."
+    },
+    {
+      "id": "BVOL",
+      "name": "Bid Volume",
+      "description": "The Bid Volume (BVOL) study displays the total amount of transactions occurring on the Bid in a given interval."
+    },
+    {
+      "id": "CCI",
+      "name": "Commodity Channel Index",
+      "description": "The Commodity Channel Index (CCI) compares the current mean price with the average mean price over a typical window of 20 periods."
+    },
+    {
+      "id": "CMO",
+      "name": "Chande Momentum Oscillator",
+      "description": "The Chande Momentum Oscillator (CMO) developed by Tushar Chande attempts to capture the momentum of the instrument. The indicator oscillates between -100 and 100 with overbought level of 50 and oversold level of -50."
+    },
+    {
+      "id": "DEMA",
+      "name": "Double Exponential Moving Average",
+      "description": "The Double Exponential Moving Average (DEMA) by Patrick Mulloy attempts to offer a smoothed average with less lag than a straight exponential moving average. The calculation is more complex than just a moving average of a moving average as shown in the formula below."
+    },
+    {
+      "id": "DI+",
+      "name": "Plus DI",
+      "description": "Compute the positive/negative Directional Indexes, +DI and -DI, as a percentage of the True Range"
+    },
+    {
+      "id": "DMI",
+      "name": "Directional Movement Indicators",
+      "description": "The Directional Movement Indicators (DMI) are components of the Directional Movement system published by J. Welles Wilder, and are computed with the Average Directional Movement Index (ADX). Two indicators are plotted, a Positive DI ( +DI ) and a Negative DI ( -DI )."
+    },
+    {
+      "id": "ICH",
+      "name": "Ichimoku",
+      "description": "The Ichimoku study was developed by Goichi Hosoda pre-World War II as a forecasting model for financial markets. The study is a trend following indicator that identifies mid-points of historical highs and lows at different lengths of time and generates trading signals similar to that of moving averages/MACD. A key difference between Ichimoku and moving averages is Ichimoku charts lines are shifted forward in time creating wider support/resistance areas mitigating the risk of false breakouts."
+    },
+    {
+      "id": "KC",
+      "name": "Keltner Channel",
+      "description": "The Keltner Channel was introduced in 1960 by Chester W. Keltner in his book How To Make Money in Commodities, and is also explained by Perry Kaufman's book The New Commodity Trading Systems and Methods. Keltner Channels plots three lines, consisting of a simple moving average (typically of the average price) with upper and lower bands plotted above and below this moving average. The width of the bands is based on a user defined factor applied to the Average True Range, with this result added to and subtracted from the middle moving average line."
+    },
+    {
+      "id": "LR",
+      "name": "Linear Regression",
+      "description": "Linear regression is a statistical tool used to help predict future values from past values. It is commonly used as a quantitative way to determine the underlying trend and when prices are overextended. A linear regression trendline uses the least squares method to plot a straight line through prices so as to minimize the distances between the prices and the resulting trendline. This linear regression indicator plots the trendline value for eachd ata point."
+    },
+    {
+      "id": "LRA",
+      "name": "Linear Regression Angle",
+      "description": "Linear regression is a statistical tool used to help predict future values from past values. It is commonly used as a quantitative way to determine the underlying trend and when prices are overextended. A linear regression trendline uses the least squares method to plot a straight line through prices so as to minimize the distances between the prices and the resulting trendline. This linear regression angle indicator plots the angel of the trendline for each data point."
+    },
+    {
+      "id": "LRI",
+      "name": "Linear Regression Intercept",
+      "description": "Linear regression is a statistical tool used to help predict future values from past values. It is commonly used as a quantitative way to determine the underlying trend and when prices are overextended. A linear regression trendline uses the least squares method to plot a straight line through prices so as to minimize the distances between the prices and the resulting trendline. This linear regression intercept indicator plots the intercept for the trendline for each data point."
+    },
+    {
+      "id": "LRM",
+      "name": "Linear Regression Slope",
+      "description": "Linear regression is a statistical tool used to help predict future values from past values. It is commonly used as a quantitative way to determine the underlying trend and when prices are overextended. A linear regression trendline uses the least squares method to plot a straight line through prices so as to minimize the distances between the prices and the resulting trendline. This linear regression indicator plots the slope of the trendline value for each given data point."
+    },
+    {
+      "id": "MAX",
+      "name": "Max",
+      "description": "The Maximum returns the maximum values found in the look back period for the selected input value."
+    },
+    {
+      "id": "MFI",
+      "name": "Money Flow Index",
+      "description": "The Money Flow Index (MFI) was developed by Gene Quong and Avrum Soudack. It uses both price and volume to measure buying and selling pressure."
+    },
+    {
+      "id": "MIDPNT",
+      "name": "Midpoint",
+      "description": "The Midpoint calculation is similar to the Midprice, except the highest and lowest values are returned from the same input field. The default indicator calculates the highest close and lowest close within the look back period and averages the two values."
+    },
+    {
+      "id": "MIDPRI",
+      "name": "Midprice",
+      "description": "The Midprice returns the midpoint value from two different input fields. The default indicator calculates the highest high and lowest low within the look back period and averages the two values to return the Midprice."
+    },
+    {
+      "id": "MIN",
+      "name": "Min",
+      "description": "The Minimum returns the minimum value found in the look back period for the selected input value."
+    },
+    {
+      "id": "MINMAX",
+      "name": "MinMax",
+      "description": "The Minimum Maximum returns the minimum and maximum values found in the look back period for the selected input value."
+    },
+    {
+      "id": "MOM",
+      "name": "Momentum",
+      "description": "The Momentum (MOM) indicator compares the current price with the previous price from a selected number of periods ago. This indicator is similar to the “Rate of Change” indicator, but the MOM does not normalize the price, so different instruments can have different indicator values based on their point values."
+    },
+    {
+      "id": "AMA",
+      "name": "Adaptive Moving Average",
+      "description": "This indicator is either quick, or slow, to signal a market entry depending on the efficiency of the move in the market."
+    },
+    {
+      "id": "EMA",
+      "name": "Exponential",
+      "description": "The Exponential Moving Average (EMA) represent san average of prices, but places more weight on recent prices. The weighting applied to the most recent price depends on the selected period of the moving average. The shorter the period for the EMA, the more weight that will be applied to the most recent price."
+    },
+    {
+      "id": "MACD",
+      "name": "Moving Average Convergence Divergence",
+      "description": "The Moving Average Convergence Divergence (MACD) was developed by Gerald Appel, and is based on the differences between two moving averages of different lengths, a Fast and a Slow moving average. A second line, called the Signa” line is plotted as a moving average of the MACD. A third line, called the MACD Histogram is optionally plotted as a histogram of the difference between the MACD and the Signal Line."
+    },
+    {
+      "id": "SMA",
+      "name": "Simple Moving Average",
+      "description": "The Simple Moving Average (SMA) is calculated by adding the price of an instrument over a number of time periods and then dividing the sum by the number of time periods. The SMA is basically the average price of the given time period, with equal weighting given to the price of each period."
+    },
+    {
+      "id": "T3",
+      "name": "T3",
+      "description": "The Triple Exponential Moving Average (T3) by Tim Tillson attempts to offers a moving average with better smoothing then traditional exponential moving average."
+    },
+    {
+      "id": "TEMA",
+      "name": "Triple Exponential Moving Average",
+      "description": "The Triple Exponential Moving Average (TEMA) by Patrick Mulloy offers a moving average with less lag then traditional exponential moving average."
+    },
+    {
+      "id": "TRIMA",
+      "name": "Triangular Moving Average",
+      "description": "The Triangular Moving Average (TRIMA) represents an average of prices, but places weight on the middle prices of the time period. The calculations double-smooth the data using a window width that is one-half the length of the series."
+    },
+    {
+      "id": "TRIX",
+      "name": "Triple Exponential Moving Average Oscillator",
+      "description": "The Triple Exponential Moving Average Oscillator (TRIX) by Jack Hutson is a momentum indicator that oscillates around zero. It displays the percentage rate of change between two triple smoothed exponential moving averages."
+    },
+    {
+      "id": "WMA",
+      "name": "Weighted Moving Average",
+      "description": "The Weighted Moving Average (WMA) places more emphasis on recent prices than on older prices. Each period’s data is multiplied by a weight, with the weighting determined by the number of periods selected."
+    },
+    {
+      "id": "NATR",
+      "name": "Normalized Average True Range",
+      "description": "Normalized Average True Range (NATR) attempts to normalize the average true range values across instruments by using the formula below."
+    },
+    {
+      "id": "OBV",
+      "name": "On Balance Volume",
+      "description": "On Balance Volume (OBV) maintains a cumulative running total of the amount of volume occurring on up periods compared to down periods."
+    },
+    {
+      "id": "PC",
+      "name": "Price Channel",
+      "description": "The Price Channel displays two lines, with the upper line representing the highest price and the lower line representing the lowest price for a given look back interval. The bands can optionally be smoothed with a moving average, or shifted to the right with an offset value. Basic uses of the Price Channel are to identify breakouts form the channel and to determine placement of trailing stops."
+    },
+    {
+      "id": "PLT",
+      "name": "PLOT",
+      "description": "Plot is an indicator that will simply plot the selected input value. This can be used to extract information from each bar or to add additional plot patterns to an existing study."
+    },
+    {
+      "id": "PPO",
+      "name": "Percent Price Oscillator",
+      "description": "The Percent Price Oscillator (PPO) is based on the differences between two moving averages of different lengths, a ‘Fast’ and a ‘Slow’ moving average. The PPO is the difference of the two averages divided by the slower of the two moving averages, which tends to normalize the values across different instruments."
+    },
+    {
+      "id": "PVT",
+      "name": "Price Volume Trend",
+      "description": "The Price Volume Trend (PVT) study attempts to quantify the amount of volume flowing into or out of an instrument by identifying the close of the period in relation to the previous period’s close. The volume for the period is then allocated accordingly to a running continuous total."
+    },
+    {
+      "id": "ROC",
+      "name": "Rate of Change",
+      "description": "The Rate of Change (ROC) indicator compares the current price with the previous price from a selected number of periods ago. The current price is divided by the previous price and expressed as a percentage. This indicator is also commonly known as a momentum indicator."
+    },
+    {
+      "id": "ROC100",
+      "name": "Rate of Change",
+      "description": "The Rate of Change (ROC100) indicator compares the current price with the previous price from a selected number of periods ago. The current price is divided by the previous price and multiplied by 100. This indicator is also commonly known as a momentum indicator."
+    },
+    {
+      "id": "ROCP",
+      "name": "Rate of Change",
+      "description": "The Rate of Change Percentage (ROCP) indicator compares the current price with the previous price from a selected number of periods ago. The current price is divided by the previous price. ROCP does not express as a percentage. This indicator is also commonly known as a momentum indicator."
+    },
+    {
+      "id": "ROCR",
+      "name": "Rate of Change",
+      "description": "The Rate of Change Rate (ROCR) indicator compares the current price with the previous price from a selected number of periods ago. The current price is divided by the previous price. This indicator is also commonly known as a momentum indicator."
+    },
+    {
+      "id": "RSI",
+      "name": "Relative Strength Indicator",
+      "description": "The Relative Strength Index (RSI) was published by J. Welles Wilder. The current price is normalized as a percentage between 0 and 100. The name of this oscillator is misleading because it does not compare the instrument relative to another instrument or set of instruments, but rather represents the current price relative to other recent pieces within the selected lookback window length."
+    },
+    {
+      "id": "SAR",
+      "name": "Parabolic Sar",
+      "description": "The Parabolic Stop and Reverse (SAR) calculates trailing stop points to use with long and short positions. The SAR was published by J. Welles Wilder as part of a complete trend following system. The dotted lines above the price designate trailing stops for short positions; those below the price are sell stops for long positions."
+    },
+    {
+      "id": "SAVOL",
+      "name": "Session Cumulative Ask",
+      "description": "The total ask volume accumulated since the start of the session. For example, in the first 10 minutes of trading the ask volume is 55 and the second 10 minutes it is 20, the session ask volume will be 55 for the first bar and 75 for the second bar. This continues to accumulate until the end of the session and then resets to zero at the beginning of the next session. Sessions can be the predefined exchange and primary session or any custom session."
+    },
+    {
+      "id": "SBVOL",
+      "name": "Session Cumulative Bid",
+      "description": "The total bid volume accumulated since the start of the session. For example, in the first 10 minutes of trading the bid volume is 55 and the second 10 minutes it is 20, the session bid volume will be 55 for the first bar and 75 for the second bar. This continues to accumulate until the end of the session and then resets to zero at the beginning of the next session. Sessions can be the predefined exchange and primary session or any custom session."
+    },
+    {
+      "id": "STDDEV",
+      "name": "Standard Deviation",
+      "description": "Standard Deviation is a statistical calculation used to measure the variability. In trading this value is known as volatility. A low standard deviation indicates that the data points tend to be very close to the mean, whereas high standard deviation indicates that the data points are spread out over a large range of values."
+    },
+    {
+      "id": "STOCH",
+      "name": "Stochastic",
+      "description": "The Stochastic (Stoch) normalizes price as a percentage between 0 and 100. Normally two lines are plotted, the %K line and a moving average of the %K which is called %D. As low stochastic can be created by initially smoothing the %K line with a moving average before it is displayed. The length of this smoothing is set in the Slow K Period. Without the initial smoothing ( i.e., setting the Slow K Period to a value of 1 ) the %K becomes the ‘Raw %K’ value, and is also known as a fast stochastic."
+    },
+    {
+      "id": "StochF",
+      "name": "Stochastic Fast",
+      "description": "The Stochastic Fast (StochF) normalizes price as a percentage between 0 and 100. Normally two lines are plotted, the %K line and a moving average of the %K which is called %D. A fast stochastic is created by not smoothing the %K line with a moving average before it is displayed."
+    },
+    {
+      "id": "S_VOL",
+      "name": "Session Volume",
+      "description": "This is the total volume accumulated since the start of the session. For example, in the first 10 minutes of trading the volume is 55 and the second 10 minutes it is 20, the session volume will be 55 for the first bar and 75 for the second bar. This continues to accumulate until the end of the session and then resets to zero at the beginning of the next session. Sessions can be the predefined exchange and primary session or any custom session."
+    },
+    {
+      "id": "TSF",
+      "name": "Time Series Forecast",
+      "description": "The Time Series Forecast (TSF) is a linear regression calculation that plots each bar’s current regression value using the least square fit method. This indicator is sometimes referred to as a moving linear regression similar to a moving average. For example, the TSF value that covers 10 days will have the same value as a 10-day Time Series Forecast. This differs slightly from the Linear Regression indicator in that the Linear Regression indicator does not add the slope to the ending value of the regression line."
+    },
+    {
+      "id": "TT CVD",
+      "name": "TT Cumulative Vol Delta",
+      "description": "The Cumulative Volume Delta (TT CVD Study) displays a running total of net transactions as calculated by Volume Delta. Transactions occurring on the Ask are considered Buying Pressure and are added to the total, and those occurring on the Bid are considered Selling Pressure and are subtracted from the cumulative total."
+    },
+    {
+      "id": "ULTOSC",
+      "name": "Ultimate Oscillator",
+      "description": "The Ultimate Oscillator (ULTOSC) by Larry Williams is a momentum oscillator that incorporates three different time periods to improve the overbought and oversold signals."
+    },
+    {
+      "id": "Vol ∆",
+      "name": "Volume Delta",
+      "description": "The Volume Delta (Vol ∆) study displays the total amount of transactions occurring on both the Bid and the Ask in a given interval (similar to CBAVol), but also superimposes the absolute value of the net difference between the BVol and AVol for that interval. Whichever is greater (BVol or AVol) is displayed in that color on top of the total volume."
+    },
+    {
+      "id": "VOLUME",
+      "name": "Volume",
+      "description": "The number of contracts traded during a given period of time."
+    },
+    {
+      "id": "VWAP",
+      "name": "Volume Weighted Average Price",
+      "description": "The Volume Weighted Average Price is similar to a moving average, except volume is included to weight the average price over a one day period. VWAP resets daily and can be calculated based on exchange session, primary session and custom defined sessions. You can also apply standard deviation bands above and below the VWAP."
+    },
+    {
+      "id": "WillR",
+      "name": "Williams % R",
+      "description": "The %R indicator was developed by Larry Williams and introduced in his 1979 book How I Made $1,000,000 Trading Commodities Last Year. Williams %R is similar to a stochastic oscillator, as it normalizes price as a percentage between 0 and 100. It is basically an inverted version of the ‘Raw %K’ value of a Fast Stochastic."
+    },
+    {
+      "id": "WWS",
+      "name": "Welles Wilder's Smoothing Average",
+      "description": "The Welles Wilder's Smoothing Average (WWS) was developed by J. Welles Wilder, Jr. and is part of the Wilder's RSI indicator implementation. This indicator smoothes price movements to help you identify and spot bullish and bearish trends."
+    }
+  ]
+}
