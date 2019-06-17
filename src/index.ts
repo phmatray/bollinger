@@ -1,3 +1,4 @@
+import { EMA } from './ema';
 import { SMA } from './sma';
 
-export default { SMA };
+export default { EMA, SMA };

@@ -11,6 +11,11 @@ An open-source technical analysis library written with TypeScript.
 
 ## What is included?
 
+- EMA
+- SMA
+
+## For contributors
+
 - Testing with **[Jest](https://jestjs.io/)**
 - Linting with **[ESLint](https://eslint.org/)**
 - Formatting with **[prettier](https://prettier.io/)**
