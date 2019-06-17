@@ -1,23 +1,13 @@
-language: node_js
 sudo: false
+
+language: node_js
+
 node_js:
-  - 10
-  - 9
-  - 8
+  - node
 
-os:
-  - linux
+script:
+  - npm run lint
+  - npm run test:coveralls
 
-jobs:
-  include:
-    - stage: install
-      script: npm install
-      skip_cleanup: true
-    - stage: release
-      node_js: lts/*
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          - npx semantic-release
-if: branch = master
+notifications:
+  email: false
