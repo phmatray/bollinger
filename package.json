@@ -14,6 +14,7 @@
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "commitizen": "^3.1.1",
+    "coveralls": "^3.0.4",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^5.0.0",
@@ -29,6 +30,7 @@
     "commit": "npx git-cz",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest --forceExit --coverage --verbose",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "semantic-release": "semantic-release"
   },
   "repository": {
