@@ -6,7 +6,6 @@ An open-source technical analysis library written with TypeScript.
 [![Known Vulnerabilities](https://snyk.io//test/github/phmatray/bollinger/badge.svg?targetFile=package.json)](https://snyk.io//test/github/phmatray/bollinger?targetFile=package.json)
 [![Maintainability](https://api.codeclimate.com/v1/badges/354b3a0a8d6743a70c6b/maintainability)](https://codeclimate.com/github/phmatray/bollinger/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/354b3a0a8d6743a70c6b/test_coverage)](https://codeclimate.com/github/phmatray/bollinger/test_coverage)
-[![Coverage Status](https://coveralls.io/repos/github/phmatray/bollinger/badge.svg?branch=master)](https://coveralls.io/github/phmatray/bollinger?branch=master)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
