@@ -21,5 +21,10 @@
   },
   "[typescriptreact]": {
     "editor.formatOnSave": false
-  }
+  },
+
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "smooth",
+  "explorer.sortOrder": "type",
+  "workbench.editor.highlightModifiedTabs": true
 }
