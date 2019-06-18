@@ -24,6 +24,17 @@ An open-source technical analysis library written with TypeScript.
 - Conventional commits with **[Commitizen](http://commitizen.github.io/cz-cli/)**
 - Version management and package publishing with **[Semantic release](https://semantic-release.gitbook.io/semantic-release/)**
 
+## VS Code friendly
+
+This repository is optimized to work with VisualStudio Code but nothing prevents you from using another IDE. 😉
+
+It proposes the following recommended extensions:
+
+- **[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**
+- **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
+- **[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
+- **[Visual Studio Code Commitizen Support](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)**
+
 ## Further reading
 
 - [List of technical indicators](https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/list-of-technical-indicators/)
