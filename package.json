@@ -23,7 +23,8 @@
     "commit": "npx git-cz",
     "lint": "tsc --noEmit && eslint ./{src,test}/**/*.{ts,js}",
     "lint:fix": "tsc --noEmit && eslint ./{src,test}/**/*.{ts,js} --fix",
-    "test": "jest --forceExit --coverage --verbose",
+    "test": "jest",
+    "test:coverage": "jest --coverage --verbose",
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "semantic-release": "semantic-release",
     "upgrade-interactive": "npm-check --update"
