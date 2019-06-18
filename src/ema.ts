@@ -1,4 +1,4 @@
-export function EMA(close: number[], timeperiod = 30): number[] {
+export function EMA(close: number[], timeperiod: number = 30): number[] {
   let k = 2 / (timeperiod + 1);
   let result = [close[0]];
 
