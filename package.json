@@ -21,7 +21,8 @@
   "main": "src/index.ts",
   "scripts": {
     "commit": "npx git-cz",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "lint": "tsc --noEmit && eslint ./{src,test}/**/*.{ts,js}",
+    "lint:fix": "tsc --noEmit && eslint ./{src,test}/**/*.{ts,js} --fix",
     "test": "jest --forceExit --coverage --verbose",
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "semantic-release": "semantic-release"
@@ -49,14 +50,21 @@
     "ts-jest": "~24.0.2",
     "typescript": "~3.5.2"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc --noEmit && lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx}": [
+      "eslint . --fix",
+      "git add"
+    ]
   }
 }
